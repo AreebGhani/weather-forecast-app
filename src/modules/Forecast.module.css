@@ -1,0 +1,39 @@
+.forecastContainer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+}
+
+.forecastItem {
+  width: 150px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  -webkit-transition: border-color 0.3s, box-shadow 0.3s;
+  -moz-transition: border-color 0.3s, box-shadow 0.3s;
+  -ms-transition: border-color 0.3s, box-shadow 0.3s;
+  -o-transition: border-color 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.forecastItem:hover {
+  border-color: #007bff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.time {
+  margin: auto;
+  max-width: 80%;
+}

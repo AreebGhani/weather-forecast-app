@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-color: #0e3dd9;
+}
+
+body {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  overflow-x: hidden;
+  scrollbar-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e3dd9;
+  border: 5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
